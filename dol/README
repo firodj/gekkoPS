@@ -1,0 +1,22 @@
+
+Nintendo GameCube DOL Loader Plugin v0.1
+----------------------------------------
+
+This is a very simple plugin to load DOL files into IDA for reverse 
+engineering purposes. 
+              (You need of course PPC support in your version of IDA)
+
+To compile this loader module unpack the loader plugin source to
+a folder on your harddisk, open the VC++ 6.0 project file and
+adjust the include and library paths to match your installation
+of the IDA SDK.
+
+Don't forget to compile as release version. If you compile as
+debug version you will most probably get an error about an undefined
+__NT__ symbol.
+
+You may direct any question concerning the module to me.
+
+Stefan Esser
+se at nopiracy dot de
+
